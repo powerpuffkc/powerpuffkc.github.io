@@ -1,0 +1,138 @@
+* {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+    margin:0px; /*this is so that when you scroll, there is no space between header and other elements */
+    }
+    
+    header{
+     height: 69px;
+     position: fixed;
+     border-bottom: 1px solid seashell;
+     width:100%;
+     margin-top:0px;
+     
+    }
+    
+    li {
+        list-style-type: none;
+        display: inline-block;
+        text-decoration: underline;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    
+    #logo{
+        height:50px;
+        float:left;
+        margin-left: 10px;
+        margin-top: 10px;
+        
+    }
+    
+    .navigation {
+    float:right;
+    
+    }
+    
+    .section_mission{
+        background-image: url(./images/img-mission-background.jpg);
+        height: 700px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        margin-top: 69px;
+    }
+    
+    .mission_text{
+        margin: auto;
+        background-color: black;
+        width: 100%;
+        padding: 0px 20px;
+        padding: 20px;
+        line-height: 2;
+    }
+    
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width:1000px;
+        justify-content:space-evenly;
+        margin: 0 auto;
+    }
+    
+    /** adds spacing between mission background image and the h2 and h4 headers of the tea section **/
+    .tea_of_month{
+      margin:0 auto;
+      padding-top:50px;
+      line-height: 2;
+      width:80%
+    }
+    
+    /** set the width/heigh and display of the images with h4 aligned underneath */
+    .item img{
+        width: 300px;
+        height:200px;
+        display:inline-block;
+        padding-top: 50px;
+        
+    }
+    
+    .container_loc{
+        display: inline-flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        height: 500px;
+        background-image: url(./images/img-locations-background.jpg);
+        background-position:center; 
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    .locations h2{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 15px;
+        background-color: transparent;
+        font-size: 30px;
+      
+            
+    }
+    
+    
+    .locationitem{
+       display: inline-block;
+       width: 300px;
+       height: 200px;
+       line-height: 2;
+       text-align: center;
+       padding-bottom: 10px;
+       padding-top: 15px;
+       margin-right: 40px;
+       margin-left: auto;
+       justify-content: space-around;
+      
+    }
+    /* Fix location wrapper that is not responsive correctly */
+    
+    .contact_info{
+        height: 200px;
+        line-height: 2;
+        padding-top: 20px;
+    }
+    
+    .main_footer{
+    float:left;
+    margin-left: 20px;
+    text-align: left;
+    }
+    
